@@ -16,6 +16,15 @@ html, body
 .titre 
 {
     font-family: 'Fraunces', serif;
+    font-size: 40px;
+}
+.description_product 
+{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    padding-right: 20%;
+    font-size: 17px;
+
 }
 .right_part 
 {
