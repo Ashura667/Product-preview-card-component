@@ -6,6 +6,10 @@ html, body
     height: 100%;
 
 }
+
+
+
+
 .centering_product 
 {
     display: flex;
@@ -41,8 +45,7 @@ html, body
     font-size: 17px;
     text-decoration:line-through;
 }
-.button_div {
-}
+
 .add_to_cart_button {
     background-color: hsl(158, 36%, 37%);
     font-family: 'Montserrat', sans-serif;
@@ -54,10 +57,13 @@ html, body
     border-radius: 10px;
     font-weight: bold;
     font-size: 18px;
-    
 
 
 
+
+}
+.icon_cart {
+    margin-right: 5px;
 }
 .solded_price 
 {
@@ -98,3 +104,26 @@ html, body
     border-bottom-left-radius: 5%;
 
 }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+   {
+    .card 
+    {
+        background-color: white;
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+        
+    }
+    .add_to_cart_button {
+        margin-bottom: 20px;
+    }
+    
+}
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;}
