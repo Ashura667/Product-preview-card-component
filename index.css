@@ -4,9 +4,15 @@ body
     background-color: hsl(30, 38%, 92%);
     width: 1440px;
     height: auto;
+
+}
+.titre 
+{
+    font-family: 'Fraunces', serif;
 }
 .right_part 
 {
+    margin-left: 30px;
     width: 400px;
     height: auto;
     justify-content: center;
@@ -18,8 +24,10 @@ body
     width: 800px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+}
+.header_product 
+{
+    
 }
 .image_product 
 {
