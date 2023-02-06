@@ -26,6 +26,28 @@ html, body
     font-size: 17px;
 
 }
+.box_prices 
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    align-items: center;
+}
+.real_price 
+{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    padding-right: 20%;
+    font-size: 17px;
+    text-decoration:line-through;
+}
+.solded_price 
+{
+    font-family: 'Montserrat', sans-serif;
+    color: darkgreen;
+    font-size: 40px;
+    font-weight: bold;
+}
 .right_part 
 {
     margin-left: 30px;
