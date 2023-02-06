@@ -1,10 +1,17 @@
-body 
+html, body 
 
 {
     background-color: hsl(30, 38%, 92%);
     width: 1440px;
-    height: auto;
+    height: 100%;
 
+}
+.centering_product 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 .titre 
 {
@@ -24,10 +31,15 @@ body
     width: 800px;
     display: flex;
     flex-direction: row;
+    
 }
 .header_product 
 {
-    
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    margin-top: 40px;
+    letter-spacing: 0.5em;
 }
 .image_product 
 {
