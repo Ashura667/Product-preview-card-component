@@ -31,6 +31,7 @@ html, body
     width: 800px;
     display: flex;
     flex-direction: row;
+    border-radius: 5%;
     
 }
 .header_product 
@@ -44,4 +45,7 @@ html, body
 .image_product 
 {
     width: 400px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+
 }
