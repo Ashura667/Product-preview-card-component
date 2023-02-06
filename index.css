@@ -1,5 +1,27 @@
 body 
 
 {
-    background-color: antiquewhite;
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+    height: auto;
+}
+.right_part 
+{
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.card 
+{
+    background-color: white;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.image_product 
+{
+    width: 400px;
 }
