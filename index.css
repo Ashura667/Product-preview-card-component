@@ -42,16 +42,27 @@ html, body
     text-decoration:line-through;
 }
 .button_div {
-    text-align: center;
 }
 .add_to_cart_button {
-    background-color: darkgreen;
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    color: white;
+    border: 0px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    
+
+
 
 }
 .solded_price 
 {
     font-family: 'Montserrat', sans-serif;
-    color: darkgreen;
+    color: hsl(158, 36%, 37%);
     font-size: 40px;
     font-weight: bold;
 }
